@@ -18,6 +18,6 @@ jobs:
       - name: "Checkout Repository"
         uses: actions/checkout@v3 # Checkout the repository
 
-      - name: "Print Hello World."
+      - name: "Print Hello World"
         run: |
           echo "Hello, World! This is running on a self-hosted runner."
