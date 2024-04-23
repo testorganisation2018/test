@@ -5,7 +5,7 @@ name: "Hello World Self-Hosted Runner"
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   hello_world:
